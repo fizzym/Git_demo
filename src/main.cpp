@@ -25,7 +25,9 @@ void setup() {
 
 //------------
 void loop() {
+  //Blink LEDs
   pinMode(LED_BUILTIN, HIGH);
+  //Wait 1000 ms
   delay(1000);
   pinMode(LED_BUILTIN, LOW);
   delay(1000);
